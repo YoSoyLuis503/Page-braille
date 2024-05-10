@@ -34,7 +34,7 @@ body {
 }
 
 .boton-candado {
-    background-image: url("/imagenes/candadoCerrado.png");
+    background-image: url("imagenes/candadoCerrado.png");
     background-size: cover;
     background-position: center;
     width: 65px; 
@@ -47,7 +47,7 @@ body {
 }
 
 .boton-candado-Abierto {
-    background-image: url("/imagenes/candadoAbierto.png");
+    background-image: url("imagenes/candadoAbierto.png");
     background-size: cover;
     background-position: center;
     width: 65px; 

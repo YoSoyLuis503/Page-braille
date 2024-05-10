@@ -67,7 +67,7 @@ function IniciarSesion(usuario, contraseña) {
           localStorage.setItem("UsuarioActivo", nombreUsuario);
 
          // console.log("Inicio de sesión exitoso:", user);
-          window.location.href = "home.html";
+          window.location.href = "index.html";
         
       })
       .catch((error) => {

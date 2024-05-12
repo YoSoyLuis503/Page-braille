@@ -138,8 +138,7 @@ body {
 }
 
 
-/* Media query para dispositivos móviles */
-@media screen {
+@media (max-width: 767px) {
 	.login-box {
 		height: 100%;
     	width: 100%;

@@ -33,6 +33,16 @@ body {
     max-width: 400px;
 }
 
+@media (max-width: 767px) {
+    .boletines {
+        display: block; /* Cambiar a diseño de columna */
+    }
+
+    .boletin {
+        max-width: 100%; /* Ocupar todo el ancho disponible */
+    }
+}
+
 .boton-candado {
     background-image: url("imagenes/candadoCerrado.png");
     background-size: cover;

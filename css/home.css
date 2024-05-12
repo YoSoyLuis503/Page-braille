@@ -129,16 +129,21 @@ body {
     padding: 20px;
 }
 
+.imgCell{
+	height: 40%;
+}
 
+.imgCell2{
+	height: 35%;
+}
 
 
 /* Media query para dispositivos móviles */
-@media (max-width: 767px) {
+@media screen {
 	.login-box {
 		height: 100%;
     	width: 100%;
 	}
-
 
 	.inputLogin {
 		background-color: #eee;
@@ -160,7 +165,21 @@ body {
 		max-width: 100%;
 	}
 
+	.imgCell{
+		height: 25%;
+	}
 
+	.imgCell2{
+		height: 20%;
+	}
+
+	.inputLogin {
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 220%;
+	}	
 }
 
 

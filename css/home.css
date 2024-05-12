@@ -124,18 +124,8 @@ body {
 
 .login-box {
     width: 60%;
-    max-width: 750px;
     margin: auto;
     padding: 20px;
-}
-
-
-/* Media query para dispositivos móviles */
-@media (max-width: 767px) {
-	.login-box {
-		height: 100%;
-    	width: 100%;
-	}
 }
 
 

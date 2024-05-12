@@ -133,9 +133,8 @@ body {
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
 	.login-box {
-		width: 650px;
-		font-size: 6px; /* Reducir el tamaño de fuente en dispositivos móviles */
-		padding: 5px; /* Reducir el espacio de relleno */
+		height: 100%;
+    	width: 100%;
 	}
 }
 

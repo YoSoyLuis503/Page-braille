@@ -132,6 +132,15 @@ body {
 
 /* Media query para dispositivos móviles */
 @media (max-width: 767px) {
+    .content {
+        height: auto; /* Cambiar a altura automática para adaptarse al contenido */
+        filter: none; /* Quitar el efecto de desenfoque en dispositivos móviles */
+    }
+
+    .login-container {
+        height: auto; /* Cambiar a altura automática para adaptarse al contenido */
+    }
+
 		.login-box {
 			width: 100%;
 			font-size: 6px; /* Reducir el tamaño de fuente en dispositivos móviles */

@@ -142,7 +142,7 @@ body {
     }
 
     .login-box {
-        width: 90%; /* Reducir el ancho del contenedor en dispositivos móviles */
+        width: 100%; /* Reducir el ancho del contenedor en dispositivos móviles */
     }
 }
 

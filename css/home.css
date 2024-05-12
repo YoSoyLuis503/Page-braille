@@ -124,8 +124,43 @@ body {
 
 .login-box {
     width: 60%;
+    max-width: 750px;
     margin: auto;
     padding: 20px;
+}
+
+
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 767px) {
+	.login-box {
+		height: 100%;
+    	width: 100%;
+	}
+
+
+	.inputLogin {
+		background-color: #eee;
+		border: none;
+		padding: 12px 15px;
+		margin: 8px 0;
+		width: 100%;
+	}
+	
+	.containerLogin {
+		background-color:  #F6F6F6;
+		border-radius: 10px;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+				0 10px 10px rgba(0,0,0,0.22);
+		position: relative;
+		overflow: hidden;
+		width: 350px;
+    	height: 77%;
+		max-width: 100%;
+	}
+
+
 }
 
 

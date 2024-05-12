@@ -369,7 +369,7 @@ body {
 	width: 40px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 	.login-box {
 		height: 100%;
     	width: 100%;

@@ -141,9 +141,11 @@ body {
         height: auto; /* Cambiar a altura automática para adaptarse al contenido */
     }
 
-    .login-box {
-        width: 100%; /* Reducir el ancho del contenedor en dispositivos móviles */
-    }
+		.login-box {
+			width: 90%;
+			font-size: 12px; /* Reducir el tamaño de fuente en dispositivos móviles */
+			padding: 10px; /* Reducir el espacio de relleno */
+		}
 }
 
 
